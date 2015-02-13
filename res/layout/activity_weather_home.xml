@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple_background_nn"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WeatherHome" >
+    
+   <TextView
+       android:id="@+id/tvweatherdays"
+       android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:text="Select Temprature Format"
+       android:textAppearance="?android:attr/textAppearanceInverse"/>
+    
+   <RadioGroup
+       android:id="@+id/rgTempFormat"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" >
+       
+       <RadioButton
+           android:id="@+id/rbCelcius"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="Celcius"/>
+       
+       <RadioButton
+           android:id="@+id/rbFarenheit"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="Farenheit"/>
+       
+   </RadioGroup>
+
+   <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    
+        <TextView
+            android:id="@+id/tvweatherdays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of days (Maximum 5): "
+            android:textAppearance="?android:attr/textAppearanceInverse"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="phone" />
+                              
+    </LinearLayout>
+    
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+            
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="(OR)"
+            android:textColor="#111111"
+            android:gravity="center_horizontal"
+            />
+    
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+     
+	<Button
+       android:id="@+id/btnGetDate"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Enter a date (within 5 days)" />
+  
+	<ImageView
+    	android:id="@+id/imgWeather"
+    	android:layout_width="match_parent"
+    	android:layout_height="30dp"/>
+   
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+      
+    <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    
+        <EditText
+        	android:id="@+id/EdtCityName"
+        	android:layout_width="220dp"
+        	android:layout_height="wrap_content"
+      	  	android:hint="enter city name"
+      	  	android:textColorHint="#746273" />
+
+	    <Button
+        	android:id="@+id/BtnCityName"
+        	style="?android:attr/buttonStyleSmall"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Search" 
+        	android:textColor="#994433"/>
+        
+                      
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#800000"
+        android:textAllCaps="true"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:  " />
+        
+        <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+        
+     </LinearLayout>>
+
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        android:id="@+id/textMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum:  " />
+    
+    	<TextView
+        android:id="@+id/tvMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        android:id="@+id/textMinTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimum:  " />
+    
+    
+    <TextView
+        android:id="@+id/tvMinTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        android:id="@+id/textDiscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discription:  " />
+    
+    	<TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+	</LinearLayout>
+	
+    <ImageView
+        android:id="@+id/weathercondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>

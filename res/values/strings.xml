@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_weather_home">Enter Value</string>
+    <string name="title_activity_route_home">Enter Values</string>
+    
+    <string-array name="temp_format_array">
+        <item>select temprature format</item>
+        <item>Celcius</item>
+        <item>Farenheit</item>
+    </string-array>
+    
+    <string-array name="update_interval_array">
+        <item>select update interval</item>
+        <item>an hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>a day</item>
+    </string-array>
+
+</resources>
